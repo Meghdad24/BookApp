@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/item_root_id"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:background="@drawable/item_bg"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/item_top_id">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:text="گل بنفشه"
+            android:textColor="@color/white"
+            android:fontFamily="@font/b_titr_bold"
+            android:textSize="16sp"
+            android:id="@+id/item_name_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="گل و گیاه"
+            android:textColor="@color/white"
+            android:fontFamily="@font/b_nazanin_bold"
+            android:textSize="14sp"
+            android:id="@+id/item_def_id"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/person_icon_bg"
+        android:gravity="center"
+        android:id="@+id/item_icon_bg_id">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/flower"
+            android:id="@+id/item_main_img_id"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
